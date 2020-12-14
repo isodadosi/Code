@@ -5,7 +5,7 @@ def total(xs):
     result = 0
     for x in xs:
         print(type(x))
-        // 本だとis_integerを用いていたがうまく動かなかったため変更
+        # 本だとis_integerを用いていたがうまく動かなかったため変更
         if isinstance(x, int):
             result += x
             print(result)
